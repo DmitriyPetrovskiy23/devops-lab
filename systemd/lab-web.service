@@ -1,0 +1,8 @@
+[Unit]
+Description=Learning HTTP service
+[Service]
+WorkingDirectory=%h/devops-lab
+ExecStart=/usr/bin/python3 -m http.server 8000 --bind 127.0.0.1 --directory app
+Restart=on-failure
+[Install]
+WantedBy=default.target
