@@ -1,0 +1,5 @@
+INFO start
+OK /health
+ERROR timeout
+OK /
+INFO stop
