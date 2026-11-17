@@ -1,0 +1,7 @@
+[Unit]
+Description=Check HTTP every minute
+[Timer]
+OnCalendar=*-*-* *:*:00
+AccuracySec=1s
+[Install]
+WantedBy=timers.target

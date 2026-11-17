@@ -1,0 +1,5 @@
+[Unit]
+Description=Check learning HTTP service
+[Service]
+Type=oneshot
+ExecStart=/bin/bash %h/devops-lab/scripts/check-http.sh
