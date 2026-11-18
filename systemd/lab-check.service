@@ -2,4 +2,4 @@
 Description=Check learning HTTP service
 [Service]
 Type=oneshot
-ExecStart=/bin/bash %h/devops-lab/scripts/check-http.sh
+ExecStart=/bin/bash %h/devops-lab/scripts/check-http.sh http://127.0.0.1:8081/health
